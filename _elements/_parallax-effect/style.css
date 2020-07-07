@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  height: 3000px;
+}
+
+.banner {
+  max-width: 1300px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.banner__content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner__text {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+p {
+  text-align: center;
+}
+
+.bg__elems {
+  position: absolute;
+  top: 0;
+  z-index: 5;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.bg__right {
+  background: url('left-elem.png') no-repeat center;
+  background-size: cover;
+  width: 350px;
+  height: 300px;
+}
+.bg__left {
+  position: relative;
+  background: url('right-elem.png') no-repeat center;
+  background-size: cover;
+  width: 350px;
+  height: 330px;
+}

@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+}
+
+.section {
+  overflow: hidden;
+  margin-bottom: 200px;
+}
+
+@media (min-width: 767px) {
+  .section {
+    display: flex;
+  }
+
+  .section__image {
+    flex: 0 0 calc( ((100vw - 40px) * 0.6) + 5px );
+    transform: translateX(-100%);
+    position: relative;
+    padding-bottom: 44%;
+  }
+
+  .section__image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+
+  .section__body {
+    width: 40%;
+  }
+}
+@media (min-width: 1360px) {
+  .section__image {
+    flex: 0 0 calc( 100vw - (((100vw - 1360px) / 2) + ((1360px - 40px) * 0.4) + 20px) )
+  }
+}
+
+
+.section__body {
+  padding: 30px 0;
+}
+
+.section__container {
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 0 20px;
+  border: 1px solid #000;
+  display: flex;
+  align-items: center;
+}
+
+.section__content {
+  flex-basis: 100%;
+  flex-shrink: 0; 
+  display: flex;
+  padding: 30px;
+}
+
+.section__image img {
+  max-width: 100%;
+}
+
+
+
+
+
+
+
+
+.banner__block {
+  width: 30%;
+}
+
+.banner {
+  display: flex;
+  overflow: hidden;
+}
+
+.banner__content {
+  flex-shrink: 0;
+  flex-basis: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.banner__text {
+  max-width: 1360px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  padding: 200px 20px;
+}
+
+.banner__image {
+  transform: translateX(-100%);
+  flex-shrink: 0;
+  /* flex-basis: calc( ((100vw - 40px) * 0.7) - 20px); */
+  flex-basis: calc(70vw - 40px);
+  position: relative;
+}
+
+.banner__image img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  object-fit: cover;
+}
+
+@media (max-width: 700px) {
+  .banner {
+    flex-direction: column;
+  }
+  .banner__image {
+    transform: translateX(0);
+    flex-basis: unset;
+    position: relative;
+    height: 400px;
+  }
+  .banner__block {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1360px) {
+  .banner__image {
+    /* 
+     * формула расчета
+     * вычитаем из размера 100% viewport компасацию - растояние от начала левой границы viewport до начала левой границы контейнера и размер контента
+     * 100vw - ( (комнесация 1) + (компенсация 2) )
+    
+    */
+    /* flex-basis: calc( 100vw - (((100vw - 1360px) / 2) + ((1360px - 40px) * 0.4) + 20px) ); */
+    flex-basis: calc( 100vw - ( ((100vw - 1360px) / 2) + ((1360px * 0.3) + 40px) ) );
+  }
+}

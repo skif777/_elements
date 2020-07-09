@@ -1,17 +1,17 @@
-/**
- * АДАПТИВНЫЙ MARGIN
- * Возвращет адаптивный отступ(margin) между указанными размерами если они есть
- * @param {number} $marginTopLarge наибольший размер отступа сверху
- * @param {number} $marginRightLarge наибольший размер отступа справа
- * @param {number} $marginBottomLarge наибольший размер отступа снизу
- * @param {number} $marginLeftLarge наибольший размер отступа слева
- * @param {number} $marginTopSmall наименьший размер отступа сверху
- * @param {number} $marginRightSmall наименьший размер отступа справа
- * @param {number} $marginBottomSmall наименьший размер отступа снизу
- * @param {number} $marginLeftSmall наиеньший размер отступа слева
- * @param {number} $widthLarge наибольшая ширина экрана
- * @param {number} $widthSmall наименьшая ширина экрана
- */
+// /**
+//  * АДАПТИВНЫЙ MARGIN
+//  * Возвращет адаптивный отступ(margin) между указанными размерами если они есть
+//  * @param {number} $marginTopLarge наибольший размер отступа сверху
+//  * @param {number} $marginRightLarge наибольший размер отступа справа
+//  * @param {number} $marginBottomLarge наибольший размер отступа снизу
+//  * @param {number} $marginLeftLarge наибольший размер отступа слева
+//  * @param {number} $marginTopSmall наименьший размер отступа сверху
+//  * @param {number} $marginRightSmall наименьший размер отступа справа
+//  * @param {number} $marginBottomSmall наименьший размер отступа снизу
+//  * @param {number} $marginLeftSmall наиеньший размер отступа слева
+//  * @param {number} $widthLarge наибольшая ширина экрана
+//  * @param {number} $widthSmall наименьшая ширина экрана
+//  */
 @mixin r-margin(
   $marginTopLarge,
   $marginRightLarge,
@@ -91,14 +91,14 @@
 }
 
 
-/**
- * АДАПТИВНЫЙ MARGIN-TOP
- * Возвращет адаптивный отступ(margin-top) между указанными размерами если они есть
- * @param {number} $marginTopLarge наибольший размер отступа сверху
- * @param {number} $marginTopSmall наименьший размер отступа сверху
- * @param {number} $widthLarge наибольшая ширина экрана
- * @param {number} $widthSmall наименьшая ширина экрана
- */
+// /**
+//  * АДАПТИВНЫЙ MARGIN-TOP
+//  * Возвращет адаптивный отступ(margin-top) между указанными размерами если они есть
+//  * @param {number} $marginTopLarge наибольший размер отступа сверху
+//  * @param {number} $marginTopSmall наименьший размер отступа сверху
+//  * @param {number} $widthLarge наибольшая ширина экрана
+//  * @param {number} $widthSmall наименьшая ширина экрана
+//  */
  @mixin r-mt(
   $marginTopLarge,
   $marginTopSmall,
@@ -130,14 +130,14 @@
 }
 
 
-/**
- * АДАПТИВНЫЙ MARGIN-RIGHT
- * Возвращет адаптивный отступ(margin-right) между указанными размерами если они есть
- * @param {number} $marginRightLarge наибольший размер отступа справа
- * @param {number} $marginRightSmall наименьший размер отступа справа
- * @param {number} $widthLarge наибольшая ширина экрана
- * @param {number} $widthSmall наименьшая ширина экрана
- */
+// /**
+//  * АДАПТИВНЫЙ MARGIN-RIGHT
+//  * Возвращет адаптивный отступ(margin-right) между указанными размерами если они есть
+//  * @param {number} $marginRightLarge наибольший размер отступа справа
+//  * @param {number} $marginRightSmall наименьший размер отступа справа
+//  * @param {number} $widthLarge наибольшая ширина экрана
+//  * @param {number} $widthSmall наименьшая ширина экрана
+//  */
  @mixin r-mr(
   $marginRightLarge,
   $marginRightSmall,
@@ -168,14 +168,14 @@
 
 }
 
-/**
- * АДАПТИВНЫЙ MARGIN-BOTTOM
- * Возвращет адаптивный отступ(margin-bottom) между указанными размерами если они есть
- * @param {number} $marginBottomLarge наибольший размер отступа снизу
- * @param {number} $marginBottomSmall наименьший размер отступа снизу
- * @param {number} $widthLarge наибольшая ширина экрана
- * @param {number} $widthSmall наименьшая ширина экрана
- */
+// /**
+//  * АДАПТИВНЫЙ MARGIN-BOTTOM
+//  * Возвращет адаптивный отступ(margin-bottom) между указанными размерами если они есть
+//  * @param {number} $marginBottomLarge наибольший размер отступа снизу
+//  * @param {number} $marginBottomSmall наименьший размер отступа снизу
+//  * @param {number} $widthLarge наибольшая ширина экрана
+//  * @param {number} $widthSmall наименьшая ширина экрана
+//  */
  @mixin r-mb(
   $marginBottomLarge,
   $marginBottomSmall,
@@ -207,14 +207,14 @@
 }
 
 
-/**
- * АДАПТИВНЫЙ MARGIN-LEFT
- * Возвращет адаптивный отступ(margin-left) между указанными размерами если они есть
- * @param {number} $marginLeftLarge наибольший размер отступа слева
- * @param {number} $marginLeftSmall наиеньший размер отступа слева
- * @param {number} $widthLarge наибольшая ширина экрана
- * @param {number} $widthSmall наименьшая ширина экрана
- */
+// /**
+//  * АДАПТИВНЫЙ MARGIN-LEFT
+//  * Возвращет адаптивный отступ(margin-left) между указанными размерами если они есть
+//  * @param {number} $marginLeftLarge наибольший размер отступа слева
+//  * @param {number} $marginLeftSmall наиеньший размер отступа слева
+//  * @param {number} $widthLarge наибольшая ширина экрана
+//  * @param {number} $widthSmall наименьшая ширина экрана
+//  */
  @mixin r-ml(
   $marginLeftLarge,
   $marginLeftSmall,

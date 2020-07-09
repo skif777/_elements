@@ -1,12 +1,12 @@
-/**
- * АДАПТИВНЫЙ МЕЖДУСТРОЧНЫЙ ИНТЕРВАЛ
- * Возвраащет адаптивный междустрочнй интервал шрифта между указанными размерами
- * @param {number} $fontSize размер шрифта
- * @param {number} $lhLarge на какое число умножить $fontSize, чтобы получить наибольший интервал
- * @param {number} $lhSmall на какое число умножить $fontSize, чтобы получить наименьший интервал
- * @param {number} $widthLarge наибольшая ширина экрана
- * @param {number} $widthSmall наименьшая ширина экрана
- */
+// /**
+//  * АДАПТИВНЫЙ МЕЖДУСТРОЧНЫЙ ИНТЕРВАЛ
+//  * Возвраащет адаптивный междустрочнй интервал шрифта между указанными размерами
+//  * @param {number} $fontSize размер шрифта
+//  * @param {number} $lhLarge на какое число умножить $fontSize, чтобы получить наибольший интервал
+//  * @param {number} $lhSmall на какое число умножить $fontSize, чтобы получить наименьший интервал
+//  * @param {number} $widthLarge наибольшая ширина экрана
+//  * @param {number} $widthSmall наименьшая ширина экрана
+//  */
 @mixin r-lh($fontSize, $lhLarge, $lhSmall, $widthLarge, $widthSmall) {
   // http://fvsch.com/code/css-locks/
   // y = m * x + b - уравнение прямой, где:

@@ -1,17 +1,17 @@
-/**
- * АДАПТИВНЫЙ PADDING
- * Возвращет адаптивный отступ(padding) между указанными размерами если они есть
- * @param {number} $paddingTopLarge наибольший размер отступа сверху
- * @param {number} $paddingRightLarge наибольший размер отступа справа
- * @param {number} $paddingBottomLarge наибольший размер отступа снизу
- * @param {number} $paddingLeftLarge наибольший размер отступа слева
- * @param {number} $paddingTopSmall наименьший размер отступа сверху
- * @param {number} $paddingRightSmall наименьший размер отступа справа
- * @param {number} $paddingBottomSmall наименьший размер отступа снизу
- * @param {number} $paddingLeftSmall наиеньший размер отступа слева
- * @param {number} $widthLarge наибольшая ширина экрана
- * @param {number} $widthSmall наименьшая ширина экрана
- */
+// /**
+//  * АДАПТИВНЫЙ PADDING
+//  * Возвращет адаптивный отступ(padding) между указанными размерами если они есть
+//  * @param {number} $paddingTopLarge наибольший размер отступа сверху
+//  * @param {number} $paddingRightLarge наибольший размер отступа справа
+//  * @param {number} $paddingBottomLarge наибольший размер отступа снизу
+//  * @param {number} $paddingLeftLarge наибольший размер отступа слева
+//  * @param {number} $paddingTopSmall наименьший размер отступа сверху
+//  * @param {number} $paddingRightSmall наименьший размер отступа справа
+//  * @param {number} $paddingBottomSmall наименьший размер отступа снизу
+//  * @param {number} $paddingLeftSmall наиеньший размер отступа слева
+//  * @param {number} $widthLarge наибольшая ширина экрана
+//  * @param {number} $widthSmall наименьшая ширина экрана
+//  */
 @mixin r-padding(
   $paddingTopLarge,
   $paddingRightLarge,
@@ -88,14 +88,14 @@
   }
 }
 
-/**
- * АДАПТИВНЫЙ PADDING-TOP
- * Возвращет адаптивный отступ(padding-top) между указанными размерами если они есть
- * @param {number} $paddingTopLarge наибольший размер отступа сверху
- * @param {number} $paddingTopSmall наименьший размер отступа сверху
- * @param {number} $widthLarge наибольшая ширина экрана
- * @param {number} $widthSmall наименьшая ширина экрана
- */
+// /**
+//  * АДАПТИВНЫЙ PADDING-TOP
+//  * Возвращет адаптивный отступ(padding-top) между указанными размерами если они есть
+//  * @param {number} $paddingTopLarge наибольший размер отступа сверху
+//  * @param {number} $paddingTopSmall наименьший размер отступа сверху
+//  * @param {number} $widthLarge наибольшая ширина экрана
+//  * @param {number} $widthSmall наименьшая ширина экрана
+//  */
 @mixin r-pt($paddingTopLarge, $paddingTopSmall, $widthLarge, $widthSmall) {
   $paddingTopM: false;
   $paddingTopB: false;
@@ -119,14 +119,14 @@
   }
 }
 
-/**
- * АДАПТИВНЫЙ padding-RIGHT
- * Возвращет адаптивный отступ(padding-right) между указанными размерами если они есть
- * @param {number} $paddingRightLarge наибольший размер отступа справа
- * @param {number} $paddingRightSmall наименьший размер отступа справа
- * @param {number} $widthLarge наибольшая ширина экрана
- * @param {number} $widthSmall наименьшая ширина экрана
- */
+// /**
+//  * АДАПТИВНЫЙ padding-RIGHT
+//  * Возвращет адаптивный отступ(padding-right) между указанными размерами если они есть
+//  * @param {number} $paddingRightLarge наибольший размер отступа справа
+//  * @param {number} $paddingRightSmall наименьший размер отступа справа
+//  * @param {number} $widthLarge наибольшая ширина экрана
+//  * @param {number} $widthSmall наименьшая ширина экрана
+//  */
 @mixin r-pr($paddingRightLarge, $paddingRightSmall, $widthLarge, $widthSmall) {
   $paddingRightM: false;
   $paddingRightB: false;
@@ -150,14 +150,14 @@
   }
 }
 
-/**
- * АДАПТИВНЫЙ padding-BOTTOM
- * Возвращет адаптивный отступ(padding-bottom) между указанными размерами если они есть
- * @param {number} $paddingBottomLarge наибольший размер отступа снизу
- * @param {number} $paddingBottomSmall наименьший размер отступа снизу
- * @param {number} $widthLarge наибольшая ширина экрана
- * @param {number} $widthSmall наименьшая ширина экрана
- */
+// /**
+//  * АДАПТИВНЫЙ padding-BOTTOM
+//  * Возвращет адаптивный отступ(padding-bottom) между указанными размерами если они есть
+//  * @param {number} $paddingBottomLarge наибольший размер отступа снизу
+//  * @param {number} $paddingBottomSmall наименьший размер отступа снизу
+//  * @param {number} $widthLarge наибольшая ширина экрана
+//  * @param {number} $widthSmall наименьшая ширина экрана
+//  */
 @mixin r-pb($paddingBottomLarge, $paddingBottomSmall, $widthLarge, $widthSmall) {
   $paddingBottomM: false;
   $paddingBottomB: false;
@@ -181,14 +181,14 @@
   }
 }
 
-/**
- * АДАПТИВНЫЙ padding-LEFT
- * Возвращет адаптивный отступ(padding-left) между указанными размерами если они есть
- * @param {number} $paddingLeftLarge наибольший размер отступа слева
- * @param {number} $paddingLeftSmall наиеньший размер отступа слева
- * @param {number} $widthLarge наибольшая ширина экрана
- * @param {number} $widthSmall наименьшая ширина экрана
- */
+// /**
+//  * АДАПТИВНЫЙ padding-LEFT
+//  * Возвращет адаптивный отступ(padding-left) между указанными размерами если они есть
+//  * @param {number} $paddingLeftLarge наибольший размер отступа слева
+//  * @param {number} $paddingLeftSmall наиеньший размер отступа слева
+//  * @param {number} $widthLarge наибольшая ширина экрана
+//  * @param {number} $widthSmall наименьшая ширина экрана
+//  */
 @mixin r-pl($paddingLeftLarge, $paddingLeftSmall, $widthLarge, $widthSmall) {
   $paddingLeftM: false;
   $paddingLeftB: false;

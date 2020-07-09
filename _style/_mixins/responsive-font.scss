@@ -1,11 +1,11 @@
-/**
- * АДАПТИВНЫЙ ШРИФТ
- * Возвраащет адаптивный размер шрифта между указанными размерами
- * @param {number} $fontLarge большой размер шрифта
- * @param {number} $fontSmall маленький размер шрифта
- * @param {number} $widthLarge наибольшая ширина экрана
- * @param {number} $widthSmall наименьшая ширина экрана
- */
+// /**
+//  * АДАПТИВНЫЙ ШРИФТ
+//  * Возвраащет адаптивный размер шрифта между указанными размерами
+//  * @param {number} $fontLarge большой размер шрифта
+//  * @param {number} $fontSmall маленький размер шрифта
+//  * @param {number} $widthLarge наибольшая ширина экрана
+//  * @param {number} $widthSmall наименьшая ширина экрана
+//  */
 @mixin r-fz($fontLarge, $fontSmall, $widthLarge, $widthSmall) {
   // http://fvsch.com/code/css-locks/
 	// y = m * x + b - уравнение прямой, где:

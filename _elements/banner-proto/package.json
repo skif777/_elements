@@ -1,0 +1,30 @@
+{
+  "name": "parallax-banner",
+  "version": "1.0.0",
+  "description": "banner for site",
+  "main": "index.js",
+  "keywords": [
+    "banner",
+    "site",
+    "parallax"
+  ],
+  "author": "Evgenii Kononov",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "autoprefixer": "^9.8.4",
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0-beta.2",
+    "gulp-csso": "^4.0.1",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-tinypng-unlimited": "^1.0.3",
+    "gulp-ttf2woff": "^1.1.1",
+    "gulp-ttf2woff2": "^3.0.0",
+    "normalize.css": "^8.0.1"
+  }
+}
